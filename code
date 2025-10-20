@@ -1,0 +1,43 @@
+<html>
+
+<body style="font-family: Arial, sans-serif;">
+
+
+    <!-- Background Logo Wrapper -->
+
+    <div style="background-image: url('${C:\Users\saipr\OneDrive\Pictures\Screenshots\Screenshot 2024-10-28 125727.png}'); background-size: contain; background-repeat: no-repeat; background-position: center; padding: 20px; text-align: center;">
+
+
+        <!-- Overlay Content -->
+
+        <div style="background: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 8px;">
+
+            <h2 style="color: #333;">Car Request Notification</h2>
+
+            <p style="color: #555;">
+
+                Hello, your request for a car model has been submitted and approved.
+
+            </p>
+
+            
+
+            <!-- Dynamic Fields -->
+
+            <p><strong>Requested Car:</strong> ${requested_for}</p>
+
+            <p><strong>Status:</strong> ${approval}</p>
+
+
+            <p style="color: #333;">Thank you for choosing Mahendra!</p>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
